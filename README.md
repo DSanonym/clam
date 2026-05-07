@@ -10,6 +10,8 @@
 
 ## Overview
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DSanonym/clam/blob/main/synthetic_experiments.ipynb)
+
 **CLAM** — the **Causal Spatial Disaggregation Method** — estimates fine-grained causal effects from coarse-resolution intervention and outcome data by leveraging high-resolution covariates.
 
 Many real-world interventions are applied and measured at broad spatial scales, while their effects vary locally. CLAM addresses this mismatch by jointly learning a local causal mechanism and a disaggregation mapping, enabling:
