@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="clam_logo.jpg" alt="CLAM logo" width="100">
+  <img src="clam_logo.jpg" alt="CLAM logo" width="50">
 </p>
 
 # CLAM: Causal Spatial Disaggregation
