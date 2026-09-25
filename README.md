@@ -62,7 +62,7 @@ The `backup_experiments/` folder contains supplementary notebooks:
 
 ## Running Locally with uv
 
-Dependencies are managed with [uv](https://docs.astral.sh/uv/); `pyproject.toml` declares them and `uv.lock` pins exact versions for a fully reproducible environment.
+You can run the experiments offline with [uv](https://docs.astral.sh/uv/).
 
 ```bash
 # 1. Install uv (fast Python package manager) - skip if already installed
@@ -77,7 +77,7 @@ uv sync
 uv run jupyter lab
 ```
 
-The semi-synthetic notebook unpacks the split zip archives in `real_world_data_experiment/` into the ~800 MB CSV on its first cell, so no manual download is needed.
+The semi-synthetic notebook unpacks the split zip archives in `real_world_data_experiment/` into the ~800 MB CSV on its first cell.
 
 ### One-Click Reproduction
 
@@ -111,15 +111,5 @@ All notebooks run on the CPU, so results are reproducible across machines.
 
 ## Citation
 
-If you use CLAM, the notebooks, or the compiled real-world data, please cite:
-
-```bibtex
-@article{grossmann2026clam,
-  title={CLAM: Causal Spatial Disaggregation to Infer Local Effects From Coarse Data},
-  author={Gro{\ss}mann, Gerrit and Mukherjee, Sumantrak and Vollmer, Sebastian J},
-  journal={arXiv preprint arXiv:2608.08064},
-  year={2026}
-}
-```
 
 Please also cite the original data sources listed above when using the real-world data.
