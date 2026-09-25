@@ -89,8 +89,6 @@ uv sync && uv run jupyter nbconvert --to python synthetic_experiments.ipynb back
 
 This installs the environment, converts every notebook to a script, and runs them in order, each from its own folder so relative paths resolve. The `|| break` stops the chain on the first failure. Figures are written to disk; `plt.show()` is only called when the notebooks run in Colab, so nothing blocks on a window. The generated `.py` files are gitignored.
 
-Expect the semi-synthetic experiment to take a while; a GPU is used automatically if `torch` finds one.
-
 ## Experiment Numbering
 
 The experiment numbers in the notebook follow the paper. The output folders are:
